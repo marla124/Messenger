@@ -1,7 +1,6 @@
 using Messenger.Auth.Extensions;
-using Messenger.Auth.Services;
 
-namespace Messenger.Auth.Services;
+namespace Messenger.Auth;
 
 public class Program
 {

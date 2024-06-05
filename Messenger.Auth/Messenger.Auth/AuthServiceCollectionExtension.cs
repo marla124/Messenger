@@ -3,12 +3,13 @@ using Messenger.Auth.Data;
 using Messenger.Auth.Data.Entities;
 using Messenger.Auth.Data.Repository;
 using Messenger.Auth.Data.Repository.Interface;
+using Messenger.Auth.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace Messenger.Auth.Services;
+namespace Messenger.Auth;
 
 public static class AuthServiceCollectionExtension
 {

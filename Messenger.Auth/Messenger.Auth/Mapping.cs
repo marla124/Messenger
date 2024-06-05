@@ -3,7 +3,7 @@ using Messenger.Auth.Data.Entities;
 using Messenger.Auth.Dto;
 using Messenger.Auth.Models;
 using Messenger.Auth.Models.RequestModel;
-namespace Messenger.Auth.Services;
+namespace Messenger.Auth;
 
 public class Mapping : Profile
 {
